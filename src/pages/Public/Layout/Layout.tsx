@@ -1,8 +1,8 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Header from '../Header/Header.tsx';
+import Header from '../../../components/public/Header/Header.tsx';
 
-const Layout = () => {
+const ALayout = () => {
     return (
         <div className='layout'>
             <Header/>
@@ -11,4 +11,4 @@ const Layout = () => {
     );
 };
 
-export default Layout;
+export default ALayout;
