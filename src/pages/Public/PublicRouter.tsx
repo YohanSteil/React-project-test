@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Error from '../../_utils/Error.tsx';
 
-import { Layout, Home, Service, Contact } from './index.tsx';
+import { Layout, Home, Service, Contact, Connexion } from './index.tsx';
 
 const PublicRouter = () => {
     return (
@@ -13,6 +13,7 @@ const PublicRouter = () => {
                 <Route path="/home" element={<Home/>}/>
                 <Route path="/service" element={<Service/>} />
                 <Route path="/contact" element={<Contact/>} />
+                <Route path='/admin' element={<Connexion/>}  />
             <Route path='*' element={<Error/>} />
             </Route>
      </Routes>

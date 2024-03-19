@@ -2,6 +2,12 @@
     display: flex;
 }
 
+.AHeader{
+    text-align: center;
+    line-height: 50px;
+    background-color: lightgray;
+}
+
 .SideMenu{
     flex-grow: 1;
     border-right: solid 1px grey;

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const Connexion = () => {
     return (
         <div>
-            Header Admin
+            Connexion admin
         </div>
     );
 };
 
-export default Header;
+export default Connexion;

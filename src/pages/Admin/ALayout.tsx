@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Header from '../../components/admin/Header.tsx';
+import Header from '../../components/admin/AHeader.tsx';
 import SideMenu from '../../components/admin/SideMenu.tsx';
 import './admin.scss'
 
